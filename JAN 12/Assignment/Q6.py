@@ -1,3 +1,6 @@
+Write a python script to demonstrate at least 10 built in functions in Python.
+Solution:
+
 a="Hello, I am python!"
 print(len(a))
 
