@@ -1,3 +1,8 @@
+ Suppose the cover price of a book is Rs. 240, but bookstores get a 40% discount. Shipping costs
+Rs. 25 for the first 20 copies and Rs. 15 for each additional copy. What is the total wholesale cost for
+60 copies?
+Solution:
+
 discount = 40
 ship20 = 25
 shipAdd = 15
