@@ -1,0 +1,34 @@
+Q.  Program to create a set and demonstrate 7 methods that can be done with set datastructure.
+    Solution:
+    
+s = {1, 2, 3}
+print(s)
+print(type(s))
+
+s = {1, 2, 3, 4, 3}
+print(s)
+
+comp = {"OOP", "CSA", "NM", "MGMT", "OS"}
+print(comp)
+comp_one = {"OOP", "CSA", "NM", "MGMT", "OS", "OOP"}
+print(comp_one)
+
+
+set_one = {"a", "e", "i", "o", "u"}
+set_two = {"a", "b", "c", "d", "e", "f", "g"}
+
+print(set_one.intersection(set_two))
+print(set_one.difference(set_two))
+print(set_one.union(set_two))
+      
+
+set_one = {"a", "e", "i", "o", "u"}
+set_sub = {"a", "e"}
+print(set_one.issuperset(set_sub))
+print(set_sub.issubset(set_one))
+
+
+set_one = {"a", "e", "i", "o", "u"}
+set_sub = {"a", "e"}
+set_one.clear()
+print(set_one)
